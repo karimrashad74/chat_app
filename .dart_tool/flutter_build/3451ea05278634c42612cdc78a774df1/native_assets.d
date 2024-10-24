@@ -1,1 +1,0 @@
- D:\\Monetor\ Academy\\chat\\.dart_tool\\flutter_build\\3451ea05278634c42612cdc78a774df1\\native_assets.yaml: 
