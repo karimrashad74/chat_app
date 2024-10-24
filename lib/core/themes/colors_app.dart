@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
-abstract class ColorsApp {
-  static const primaryKey = Color(0xFF128C7E);
+abstract class ColorApp {
+  static const primaryColor = Color(0xFF128C7E);
+  static const secondryColor = Color(0xFF25D366);
 }
