@@ -1,7 +1,7 @@
 import 'package:chat/core/constants/asset_images.dart';
-import 'package:chat/core/functions/navigate_method.dart';
+import 'package:chat/core/functions/navigate_timer_method.dart';
 import 'package:chat/core/themes/styles.dart';
-import 'package:chat/features/auth/presentation/views/viewFiles/login_screen.dart';
+import 'package:chat/features/auth/presentation/views/login_view.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -15,7 +15,7 @@ class SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    customNavigateTimer(context, 3, const LoginScreen());
+    customNavigateTimer(context, 3, const LoginView());
   }
 
   @override
