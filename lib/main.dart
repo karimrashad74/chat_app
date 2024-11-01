@@ -1,3 +1,4 @@
+import 'package:chat/features/splash_screen/presentation/views/splash_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: const Scaffold(),
+      debugShowCheckedModeBanner: false,
+      title: 'Chat App',
+      home: SplashView(),
     );
   }
 }
