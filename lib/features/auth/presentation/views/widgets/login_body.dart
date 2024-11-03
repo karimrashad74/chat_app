@@ -5,7 +5,7 @@ import 'package:chat/features/auth/presentation/views/widgets/login_title.dart';
 import 'package:chat/features/auth/presentation/views/widgets/logo.dart';
 import 'package:chat/features/auth/presentation/views/widgets/password_feild.dart';
 import 'package:chat/features/auth/presentation/views/widgets/register_row.dart';
-import 'package:chat/features/home/home_view.dart';
+import 'package:chat/features/home/presentaton/views/widgets/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
@@ -47,7 +47,7 @@ class LoginBody extends StatelessWidget {
                   emailController: emailController,
                   passwordController: passwordController,
                   onSuccess: () {
-                    navigateReplacement(context, const HomeView());
+                    navigateReplacement(context, const BottomNavBar());
                   },
                 ),
                 const SizedBox(height: 20),

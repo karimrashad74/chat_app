@@ -5,7 +5,7 @@ import 'package:chat/core/shared_widgets/custom_button.dart';
 import 'package:chat/core/shared_widgets/text_field.dart';
 import 'package:chat/core/themes/styles.dart';
 import 'package:chat/features/auth/presentation/views/login_view.dart';
-import 'package:chat/features/home/home_view.dart';
+import 'package:chat/features/home/presentaton/views/widgets/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
@@ -130,7 +130,7 @@ class _SignupBodyState extends State<SignupBody> {
                       displayToastMssg(
                           'Password must be at least 8 characters', context);
                     } else {
-                      navigateReplacement(context, const HomeView());
+                      navigateReplacement(context, const BottomNavBar());
                     }
                   },
                 ),
