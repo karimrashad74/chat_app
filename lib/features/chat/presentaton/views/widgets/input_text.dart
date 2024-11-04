@@ -31,15 +31,15 @@ class _InputTextState extends State<InputText> {
       widget.onSendMessage(_controller.text);
       _controller.clear();
       setState(() {
-        _isEmojiVisible = false; // إخفاء الإيموجي بعد الإرسال
+        _isEmojiVisible = false; 
       });
     }
   }
 
   void _onEmojiSelected(Emoji emoji) {
     setState(() {
-      _controller.text += emoji.emoji; // إضافة الإيموجي للنص
-      _isEmojiVisible = false; // إخفاء الإيموجي بعد الاختيار
+      _controller.text += emoji.emoji; 
+      _isEmojiVisible = false; 
     });
   }
 
@@ -74,7 +74,7 @@ class _InputTextState extends State<InputText> {
                       onPressed: () {
                         setState(() {
                           _isEmojiVisible =
-                              !_isEmojiVisible; // تغيير حالة الإيموجي
+                              !_isEmojiVisible; 
                         });
                       },
                       icon:
@@ -117,9 +117,9 @@ class _InputTextState extends State<InputText> {
             ),
           ],
         ),
-        if (_isEmojiVisible) // عرض الإيموجي فقط إذا كانت الحالة True
+        if (_isEmojiVisible) 
           SizedBox(
-            height: 250, // ارتفاع الـ Emoji Picker
+            height: 250, 
             child: EmojiPicker(
               onEmojiSelected: (category, emoji) {
                 _onEmojiSelected(emoji);
