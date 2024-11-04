@@ -1,4 +1,4 @@
-#Sun Nov 03 22:44:39 EET 2024
+#Mon Nov 04 05:57:51 EET 2024
 base.0=D\:\\Monetor Academy\\chat\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\Monetor Academy\\chat\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=D\:\\Monetor Academy\\chat\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

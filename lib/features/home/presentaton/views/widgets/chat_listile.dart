@@ -1,6 +1,7 @@
 import 'package:chat/core/constants/asset_images.dart';
+import 'package:chat/core/functions/navigate_push_method.dart';
 import 'package:chat/core/themes/colors_app.dart';
-import 'package:chat/features/chat/chat_screen.dart';
+import 'package:chat/features/chat/presentaton/views/chat_view.dart';
 import 'package:flutter/material.dart';
 
 class ChatListile extends StatelessWidget {
@@ -51,10 +52,7 @@ class ChatListile extends StatelessWidget {
             ],
           ),
           onTap: () {
-            // navigatePush(context, const CallsView());
-            Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => const ChatScreen(),
-            ));
+            navigatePush(context, const ChatView());
           },
         ));
   }
